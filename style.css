@@ -16,38 +16,23 @@ body {
     color: white;
 }
 
+li >.sign{
+   color: white;
+   
+}
+li >.login{
+    color: white;
+ }
 .card-img-top {
-    max-height: 300px;
-    object-fit: cover;
+    height: 300px; 
+    width: 100%; 
+    object-fit: contain; 
 }
 
 .card:hover {
     border-color: #fff;
 }
 
-.movie-details {
-    background-color: black;
-    color: white;
-    padding: 20px;
-}
-
-.card {
-    background-color: black;
-    border: 1px solid #555;
-    overflow: hidden;
-}
-
-.card-img-top {
-    height: 300px;
-    width: 100%;
-    object-fit: cover;
-}
-.clg{
-    background-color:#94909b;
-}
-.sb{
-    margin-left: 20px;
-}
 .card-link {
     text-decoration: none;
     color: inherit;
@@ -67,22 +52,16 @@ body {
     color: #ddd;
     margin-bottom: 0.5rem;
 }
+
 .navbar {
     position: relative;
 }
-.navbar-brand-center {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
+
 .navbar-nav {
     margin-left: auto; 
 }
+
 .nav-item {
     margin-right: 15px; 
 }
-.hm{
-    padding: 8px;
-    border-radius: 9px;
-    background-color: green;
-}
+
